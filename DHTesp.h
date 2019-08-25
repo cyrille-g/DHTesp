@@ -111,7 +111,8 @@ public:
     DHT11,
     DHT22,
     AM2302,  // Packaged DHT22
-    RHT03    // Equivalent to DHT22
+    RHT03,    // Equivalent to DHT22
+	DHT_UNDEF = 0xFF,
   }
   DHT_MODEL_t;
 
